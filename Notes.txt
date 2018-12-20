@@ -4,4 +4,4 @@ Design decisions:
 -Aggiornamento interfacce: ChangeStream usando Replica Set
 -Architettura Database: Usiamo un'architettura Master-Slave per garantire il funzionamento del sistema anche in caso di guasti a uno dei database Master.
 -Backup: Riusciamo a garantire il funzionamento del sistema anche quando un database smette di funzionare perché abbiamo un'architettura Master-Slave. Quando il Master muore viene automaticamente eletto Master lo slave.
-Scalability: Il sistema si espanderà orizzontalmente aggiungendo un'altro server con architettura Master-Slave.
+Scalability: Nel caso ci fosse bisogno di scalare il nostro sistema lo farà orizzontalmente aggiungendo un'altro serve con architettura Master-Slave
